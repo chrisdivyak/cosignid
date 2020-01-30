@@ -1,0 +1,40 @@
+{
+    "name": "cosignid/co-sign-id",
+    "description": "Craft 3 Plugin version of Cosign login",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "cosign id"
+    ],
+    "support": {
+        "docs": "https://github.com/readme.md/co-sign-id/blob/master/README.md",
+        "issues": "https://github.com/readme.md/co-sign-id/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WPSU Multimedia",
+            "homepage": "http://creativeservices.psu.edu"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "cosignid\\cosignid\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "CoSign Id",
+        "handle": "co-sign-id",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/readme.md/co-sign-id/master/CHANGELOG.md",
+        "class": "cosignid\\cosignid\\CosignId"
+    }
+}
