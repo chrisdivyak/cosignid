@@ -24,20 +24,17 @@ To install the plugin, follow these instructions.
 
 ## CoSign Id Overview
 
--Insert text here-
+This is a simple plugin that pulls the session cosign id into a Craft variable for usage throughout templates.
 
-## Configuring CoSign Id
-
--Insert text here-
 
 ## Using CoSign Id
 
--Insert text here-
 
-## CoSign Id Roadmap
+You can set a variable in your templates to grab the cosign id after sign in.
 
-Some things to do, and ideas for potential features:
+```
+{% set studentId = craft.cosignid.studentId  %}
 
-* Release it
+```
 
 Brought to you by [WPSU Multimedia](http://creativeservices.psu.edu)
